@@ -125,12 +125,12 @@ function clearError() {
     errorContainer.classList.add("hidden");
 }
 
-// event listeners
+// add event listeners
 document.addEventListener("DOMContentLoaded", function() {
-    const simulateBtn = document.getElementById("simulate-click");
+    const simulateButton = document.getElementById("simulate-click");
 
-    if (simulateBtn) {
-        simulateBtn.addEventListener("click", function() {
+    if (simulateButton) {
+        simulateButton.addEventListener("click", function() {
             simulateClick("dynamic-content", "Button Clicked!");
         });
     }
